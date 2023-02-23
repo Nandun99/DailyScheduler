@@ -28,6 +28,19 @@ myform.onsubmit = function(e){
     
          }
    
+    else if(arrStart[0] > 24  || arrStart[0] < 0 || arrStart[1] < 0 || arrStart[1] > 60 ){
+    
+            
+        alert("Enter a valid start time !");
+              return false ; 
+    
+    }else if(arrEnd[0] > 24  || arrEnd[0] < 0 || arrEnd[1] < 0 || arrEnd[1] > 60 ){
+    
+            
+        alert("Enter a valid end time !");
+              return false ; 
+    
+    }
     else if(arrStart[0] >= arrEnd[0]){
 
         if(arrStart[0] == arrEnd[0]){
