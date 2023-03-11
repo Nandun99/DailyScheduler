@@ -34,3 +34,50 @@ text-align: center;
 
 }
 
+ul {
+
+list-style-type: none;
+padding: 0;
+
+}
+
+li {
+
+float: left;
+color:#0f4c75; 
+}
+
+li a {
+display: block;
+padding: 8px;
+text-decoration : none ; 
+
+}
+
+.nav{
+position: sticky;
+top: 0;
+
+}
+
+.menu{
+display:none ; 
+
+
+}
+
+.black{
+
+font-size: 20px;
+}
+
+h5{
+text-align:center ; 
+}
+@media only screen and (max-width:1000px){
+   #table{
+ 
+  font-size: 10px;
+ 
+}
+}

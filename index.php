@@ -31,6 +31,7 @@
 			
 				<a class="nav-item nav-link active" id = "home" href="index.php">Home</a>
 				<a id = "add" class="nav-item nav-link" href="add.html">Add a new Event</a>
+				<a id = "past" class="nav-item nav-link" href="pastevents.php">Past Events</a>
 					
 			</nav>
 		
