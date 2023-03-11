@@ -22,8 +22,13 @@ else
 			   endTime   time , 
 			   primary key(id) )" ;
 
+		$table2 = "Create table if Not Exists pastevents(
+			id int not null , 
+			sleepTime int,
+			Primary Key(id,sleepTime))";
 
 		mysqli_query($con,$table1);
+		mysqli_query($con,$table2);
 		
 			
 			
